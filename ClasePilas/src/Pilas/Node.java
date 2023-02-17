@@ -1,30 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package pilas;
+
+package Pilas;
 
 /**
  *
  * @author Cristofer
  */
 public class Node {
-    private int valor;
+    private Carro valor;
     private Node siguiente;
+    
+    //constructor para inicializar
 
     public Node() {
-        this.valor = 0;
+        this.valor = null;
         this.siguiente = null;
     }
 
-    
-
-
-    public int getValor() {
+    public Carro getValor() {
         return valor;
     }
 
-    public void setValor(int valor) {
+    public void setValor(Carro valor) {
         this.valor = valor;
     }
 
@@ -35,7 +31,4 @@ public class Node {
     public void setSiguiente(Node siguiente) {
         this.siguiente = siguiente;
     }
-    
-    
-    
 }
